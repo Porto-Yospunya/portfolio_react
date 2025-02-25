@@ -18,7 +18,7 @@ const Navbar = () => {
   }
 
   return (
-    <div className="fixed flex z-[999] w-full justify-center px-[0.4rem] mobile-vert:px-[2rem] top-[2rem]">
+    <div className="fixed flex z-[999] w-full justify-center px-[0.4rem] mobile-vert:px-[2rem] top-[1rem] mobile-vert:top-[2rem]">
       <motion.div
         className="bg-navbg py-[1rem] p-[1.2rem] mobile-vert:px-[3rem] rounded-[20px] flex justify-center mobile-hozi:justify-between w-full"
         transition={{ duration: 0.5 }}

@@ -19,8 +19,8 @@ const Service = () => {
         <motion.div
           className="bg-theme02 p-[1rem] rounded-[10px]"
           key={index}
-          transition={{ duration: 0.5, delay: index/20 }}
-          initial={{ x: index * -400 }}
+          transition={{ duration: 0.5, delay: index / 20 }}
+          initial={{ x: index + 1 * -100 }}
           whileInView={{ x: 0 }}
         >
           <div><img src={service.image} /></div>

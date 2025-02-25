@@ -27,14 +27,14 @@ const App = () => {
         className="relative h-screen flex flex-col items-center gap-[5rem] justify-center tablet:justify-between bg-linear-to-t from-theme01 to-theme03 tablet:flex-row"
       >
         <div className="relative text-white flex flex-col left-0 tablet:left-40">
-          <h1 className="text-[1.8rem] mobile-vert:text-[3rem] mobile-hozi:text-[4rem]">Watcharapong Yospunya</h1>
+          <h1 className="text-[1.8rem] mobile-vert:text-[3rem] mobile-hozi:text-[4rem] font-bold">Watcharapong Yospunya</h1>
           <div className="flex tablet:justify-start justify-center items-center text-[1.6rem] mobile-vert:text-[2rem] gap-[1rem]">
             <h2 className="text-white">I'm a</h2>
             <h2 className="my-[20px] text-theme05 border-b-[3px]">Full-Stack Developer</h2>
           </div>
         </div>
 
-        <div className="relative right-0 tablet:right-40 m-w-[300px] w-[300px] mobile-vert:w-[400px] m-h-[300px]">
+        <div className="relative right-0 tablet:right-40 m-w-[300px] w-[260px] mobile-vert:w-[400px] m-h-[300px]">
           <motion.div
             transition={{ duration: 0.7 }}
             initial={{ rotate: 0 }}
