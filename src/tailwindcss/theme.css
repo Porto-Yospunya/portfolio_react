@@ -1,0 +1,22 @@
+@theme {
+  /* Color Theme */
+  --color-theme01: #263A47;
+  --color-theme02: #4A5B6A;
+  --color-theme03: #728495;
+  --color-theme04: #98A9BE;
+  --color-theme05: #B4C5DB;
+  --color-navbg: rgba(151, 152, 153, 0.5);
+
+  /* Font */
+  --font-exo2: "Exo 2", "sans-serif";
+
+  /* Shadow */
+  --shadow-box: 0 0 6px 2px #262626;
+
+  /* Responsive */
+  --breakpoint-*: initial;
+  --breakpoint-mobile-vert: 30rem; /* 480px */
+  --breakpoint-mobile-hozi: 45rem; /* 720px */
+  --breakpoint-tablet: 60rem; /* 960px */
+  --breakpoint-desktop: 90rem; /* 1440px */
+}   
